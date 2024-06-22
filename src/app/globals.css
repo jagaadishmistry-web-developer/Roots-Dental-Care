@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shad {
+  box-shadow: 0px 0px 10px rgba(104, 104, 104, 0.136);
+}
+
+.a.active {
+  color: red;
+}
