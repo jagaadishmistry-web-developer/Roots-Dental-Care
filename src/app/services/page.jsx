@@ -23,7 +23,6 @@ const Services = () => {
           );
         })}
       </section>
-
       <section className="bg-[url('/servicesBg.jpg')] bg-cover bg-center text-white xl:py-24 py-16 flex flex-col items-center text-center">
         <div className="xl:py-24 py-16 px-4">
           <h1 className="xl:text-[55px] md:text-[45px] text-[35px] font-semibold">
@@ -37,7 +36,6 @@ const Services = () => {
           </button>
         </div>
       </section>
-
       <section className="container mx-auto px-4 xl:py-24 py-16 grid lg:grid-cols-2 xl:gap-8 gap-6">
         <div className="xl:py-[150px] py-[100px] bg-[#fafbfa] shadow-lg text-center rounded-lg">
           <h1 className="xl:text-[46px] md:text-[36px] text-[28px] font-medium">

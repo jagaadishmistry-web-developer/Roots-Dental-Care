@@ -72,7 +72,6 @@ const NavBar = () => {
           Schedule A Visit
         </button>
       </div>
-      {/* nomile navbar  */}
       <div onClick={() => setNav(!nav)} className="cursor-pointer lg:hidden">
         {nav ? <FaXmark className="w-8 h-7" /> : <FaBars className="w-8 h-7" />}
       </div>

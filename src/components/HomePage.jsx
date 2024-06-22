@@ -22,7 +22,6 @@ const HomePage = () => {
             <h4 className="text-[#7A7A7A] md:text-base text-sm md:pb-11 pb-8">
               A DECADE OF EXCELLENCE IN DENTAL CARE .
             </h4>
-
             <button className="border border-[#06692B] text-[06692B] py-3 px-7">
               Learn More
             </button>
@@ -30,7 +29,6 @@ const HomePage = () => {
           <div className=""></div>
         </div>
       </section>
-
       <section className="container mx-auto px-4 xl:py-24 py-16">
         <div className="xl:py-20 py-14 bg-[#06692B] 2xl:px-16 xl:px-10 px-5 rounded-md">
           <h1 className="xl:text-6xl text-4xl font-semibold text-white text-center">
@@ -52,7 +50,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
       <section className="bg-[#06692B] text-white">
         <div className="container mx-auto px-4 xl:py-24 py-16 grid lg:grid-cols-2 2xl:gap-0 xl:gap-20 gap-16">
           <Image
@@ -82,7 +79,6 @@ const HomePage = () => {
                   />
                 </div>
               </div>
-
               <div className="xl:pt-12 pt-8">
                 <h2 className="xl:text-xl text-lg font-medium pb-1">
                   Quality In Health Care
@@ -99,7 +95,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
       <div className="bg-[#f5f5f5]">
         <section className="container mx-auto px-4 xl:py-24 py-16">
           <div className="grid lg:grid-cols-2 2xl:gap-28 xl:gap-24 gap-16">
@@ -114,7 +109,6 @@ const HomePage = () => {
             </div>
             <Image src={home2} alt="image" className="w-full" />
           </div>
-
           <div className="grid lg:grid-cols-2 2xl:gap-28 xl:gap-24 gap-16 xl:pt-24 pt-16">
             <Image src={home3} alt="image" className="w-full" />
             <div className="flex flex-col justify-center gap-5 items-center lg:items-start">
@@ -129,7 +123,6 @@ const HomePage = () => {
           </div>
         </section>
       </div>
-
       <section className="container mx-auto px-4 grid lg:grid-cols-3 md:grid-cols-2 xl:py-24 py-16 xl:gap-8 gap-6">
         {DecsData.map((dsData) => {
           return (
@@ -147,9 +140,7 @@ const HomePage = () => {
           );
         })}
       </section>
-
       <OpeningHours />
-
       <section className="xl:py-24 py-16 text-center flex flex-col items-center">
         <div className="md:w-[780px]">
           <h3 className="xl:text-[32px] md:text-[26px] text-[20px] text-[#7A7A7A] pb-4">

@@ -66,7 +66,6 @@ const ContactUs = () => {
           <p className="xl:text-[18px] text-[#7A7A7A]">+91 40 27150505.</p>
         </div>
       </div>
-
       <section className="bg-[#FAFAFA]">
         <div className="container mx-auto px-4 xl:py-24 py-16 grid lg:grid-cols-2">
           <Image src={contactImage} alt="" className="w-full" />

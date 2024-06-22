@@ -32,7 +32,6 @@ const OurTeam = () => {
           })}
         </div>
       </section>
-
       <section className="bg-[#FAFAFA] xl:pb-24 pb-16">
         <div className="container mx-auto px-4 xl:py-24 py-16 grid lg:grid-cols-2 xl:gap-8 gap-6">
           <div className="lg:text-start text-center">
@@ -83,7 +82,6 @@ const OurTeam = () => {
           </div>
         </div>
       </section>
-
       <section className="relative container mx-auto px-4">
         <div className="absolute left-4 right-4 xl:-top-[100px] -top-[70px] xl:py-16 py-12 bg-[#06692B] text-white flex flex-col items-center rounded-lg px-3">
           <h1 className="2xl:text-[52px] xl:text-[46px] md:text-[36px] text-[28px] font-semibold text-center xl:pb-7 pb-5">
@@ -95,10 +93,8 @@ const OurTeam = () => {
         </div>
       </section>
       <div className="xl:h-72 h-60"></div>
-
       <section className="container mx-auto px-4 xl:pb-24 pb-16 grid lg:grid-cols-3">
         <Image src={tImage3} alt="image" className="col-span-1 w-full" />
-
         <div className="col-span-1 bg-[#06692B] text-white flex flex-col lg:py-0 py-16 2xl:gap-9 gap-6 items-center justify-center xl:px-6 px-4">
           <h2 className="xl:text-[32px] md:text-[28px] text-[24px]">
             Perfect Smile
@@ -110,10 +106,8 @@ const OurTeam = () => {
             Choosing The Best Dentist Is Critical For Your Dental Health
           </p>
         </div>
-
         <Image src={tImage4} alt="image" className="col-span-1 w-full" />
       </section>
-
       <section className="container mx-auto px-4 xl:pb-24 pb-16 grid lg:grid-cols-2 xl:gap-8 gap-6">
         <div className="xl:py-[80px] py-[60px] bg-[#fafbfa] shadow-lg lg:px-4 md:px-8 px-3 flex flex-col items-center text-center rounded-lg">
           <h1 className="xl:text-[40px] md:text-[32px] text-[28px] font-medium">

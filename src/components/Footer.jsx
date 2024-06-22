@@ -28,7 +28,6 @@ const Footer = () => {
           </button>
         </div>
       </section>
-
       <section className="bg-[url('/footerBg.png')] bg-cover bg-center">
         <div className="container mx-auto px-4 text-white xl:py-24 py-16">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 xl:gap-8 lg:gap-4 md:gap-24 gap-20">
@@ -50,7 +49,6 @@ const Footer = () => {
                 </button>
               </div>
             </div>
-            {/* ------------------- */}
             <div className="flex flex-col xl:gap-6 gap-4">
               <h1 className="xl:text-[32px] lg:text-[22px] md:text-[26px] text-[20px] xl:pb-8 pb-5">
                 Explore
@@ -60,7 +58,6 @@ const Footer = () => {
               <h3 className="xl:text-[22px] text-xl">Contact Us</h3>
               <h3 className="xl:text-[22px] text-xl">Schedule A Visit</h3>
             </div>
-            {/* ------------------- */}
             <div className="flex flex-col xl:gap-6 gap-4">
               <h1 className="xl:text-[32px] lg:text-[22px] md:text-[26px] text-[20px] xl:pb-8 pb-5">
                 Habsiguda Branch
@@ -106,7 +103,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* -------------------- */}
             <div className="flex flex-col xl:gap-6 gap-4">
               <h1 className="xl:text-[32px] lg:text-[22px] md:text-[26px] text-[20px] xl:pb-8 pb-5">
                 Manikonda Branch
